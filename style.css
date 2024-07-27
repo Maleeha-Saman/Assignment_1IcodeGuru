@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #add8e6; /* Light blue background */
+   
+    background-color: #add8e6; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,11 +8,11 @@ body {
     align-items: center;
 }
 
-header {
+.section {
     display: flex;
     justify-content: space-between;
     width: 45%;
-    padding: 20px;
+    padding: 30px;
     background-color: #add8e6;
    
 }
@@ -22,7 +22,7 @@ header {
     font-weight: bold;
 }
 
-nav ul {
+.nav ul {
     font-size: 18px;
     font-weight: bold;
     list-style: none;
@@ -32,34 +32,35 @@ nav ul {
     padding-top: 3px !important;
 }
 
-nav li {
+.nav li {
     margin: 0 15px;
 }
 
-nav a {
+.nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-main {
+.main {
     width: 80%;
     margin-top: 20px;
 }
 
-.categories {
+.menu {
     text-align: center;
 }
 
 .card-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .card {
     border: 1px solid #644e4e;
-    padding: 20px;
+    background-color: #fff;
+    padding: 30px;
     margin: 0 10px;
     width: 100px;
     height: 100px;
@@ -78,7 +79,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    margin-left: 250px;
+    margin-left: 20px;
 }
 
 .text-content {
